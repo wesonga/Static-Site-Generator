@@ -53,6 +53,8 @@ Most of the action happens in the `/src/` directory. Here's a breakdown of the c
   ├── template.html         # HTML template for all pages
   ├── architecture.png      # Architecture diagram or other relevant images
   ├── LICENSE               # License file for the project
+  ├── main.sh               # Python script to generate the static site
+  ├── test.sh               # Python script to run all tests in the src directory using unittest discover
   └── README.md             # Documentation for the project (e.g., usage, setup instructions)
 ```
 
@@ -79,10 +81,10 @@ Most of the action happens in the `/src/` directory. Here's a breakdown of the c
 
 ### For macOS:
 #### Python 3 (and pip) are usually pre-installed. To check:
-    ```bash
-    python3 --version
-    pip3 --version
-    ```
+```bash
+python3 --version
+pip3 --version
+```
 - If missing, install Python 3 using:
     ```bash
     brew install python3
