@@ -42,20 +42,6 @@ Most of the action happens in the `/src/` directory. Here's a breakdown of the c
 
 ---
 
-### 🚀 Quick Run
-
-To generate the static site and serve it locally:
-
-```bash
-# Generate the site
-python3 src/main.py
-
-# Serve the site locally
-python3 -m http.server 8888
-```
-
-Then open http://localhost:8888 in your browser to view the site.
-
 ### 📂 Project Structure
 
 ```
@@ -69,3 +55,105 @@ Then open http://localhost:8888 in your browser to view the site.
   ├── LICENSE               # License file for the project
   └── README.md             # Documentation for the project (e.g., usage, setup instructions)
 ```
+
+# Installation Instructions
+
+## 1. Ensure Python, Pip, and Git are installed:
+
+### For Windows:
+#### Python:
+- Download and install Python from the official website: [https://www.python.org/downloads/](https://www.python.org/downloads/).
+- During installation, make sure to check the box that says "Add Python to PATH".
+- Verify installation by running in **Command Prompt**:
+    ```bash
+    python --version
+    pip --version
+    ```
+
+#### git:
+- Download and install Git from [https://git-scm.com/download/win](https://git-scm.com/download/win).
+- Verify installation by running in **Command Prompt**:
+    ```bash
+    git --version
+    ```
+
+### For macOS:
+#### Python 3 (and pip) are usually pre-installed. To check:
+    ```bash
+    python3 --version
+    pip3 --version
+    ```
+- If missing, install Python 3 using:
+    ```bash
+    brew install python3
+    ```
+
+#### git:
+- Git is generally pre-installed, but you can check with:
+    ```bash
+    git --version
+    ```
+- If not installed, use:
+    ```bash
+    brew install git
+    ```
+
+### For Linux (Ubuntu/Debian):
+#### Python 3 and pip:
+- Check if installed:
+    ```bash
+    python3 --version
+    pip3 --version
+    ```
+- If not installed, run:
+    ```bash
+    sudo apt update
+    sudo apt install python3 python3-pip
+    ```
+
+#### git:
+- Check if installed:
+    ```bash
+    git --version
+    ```
+- If not installed, run:
+    ```bash
+    sudo apt install git
+    ```
+
+---
+
+## 2. Clone the repository to your local machine:
+Before cloning the repository, make sure **git** is installed. To clone the repository, run the following command in **Command Prompt** (Windows) or **Terminal** (macOS/Linux):
+
+```bash
+git clone https://github.com/wesonga/Static-Site-Generator
+```
+
+---
+
+## 3. Navigate to the project directory:
+Once the repository is cloned, change into the project directory:
+
+```bash
+cd Static-Site-Generator
+```
+
+---
+
+### 4. 🚀 Run
+
+To generate the static site and serve it locally:
+
+```bash
+# Generate the site
+python3 src/main.py
+
+# Serve the site locally
+python3 -m http.server 8888
+```
+
+Then open http://localhost:8888 in your browser to view the site.
+
+## License
+This project is open-source and available under the **[MIT License](LICENSE)**.
