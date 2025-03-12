@@ -18,7 +18,7 @@ Before diving into the code, here's a high-level overview of how this static sit
 
 ### System Diagram
 
-![Architecture Diagram](./image.png) <!-- Adjust the path if necessary -->
+![Architecture Diagram](architecture.png) <!-- Adjust the path if necessary -->
 
 ---
 
@@ -59,11 +59,13 @@ Then open http://localhost:8888 in your browser to view the site.
 ### 📂 Project Structure
 
 ```
-project-root/
-│
-├── content/          # Markdown files
-├── static/           # Static assets (images, CSS)
-├── public/           # Output directory (generated site)
-├── src/              # Static site generator code (Python)
-└── template.html     # HTML template for all pages
+/project-root
+  ├── content/              # Markdown files for content (e.g., blog posts, pages)
+  ├── static/               # Static assets (images, CSS, JavaScript, etc.)
+  ├── public/               # Output directory for the generated static site
+  ├── src/                  # Python code for static site generation
+  ├── template.html         # HTML template for all pages
+  ├── architecture.png      # Architecture diagram or other relevant images
+  ├── LICENSE               # License file for the project
+  └── README.md             # Documentation for the project (e.g., usage, setup instructions)
 ```
