@@ -18,7 +18,7 @@ Before diving into the code, here's a high-level overview of how this static sit
 
 ### System Diagram
 
-![Architecture Diagram](architecture.png) <!-- Adjust the path if necessary -->
+![Architecture Diagram](architecture.png) 
 
 ---
 
@@ -58,7 +58,7 @@ Most of the action happens in the `/src/` directory. Here's a breakdown of the c
 
 # Installation Instructions
 
-## 1. Ensure Python, Pip, and Git are installed:
+## 1. Ensure Python3, Pip, and Git are installed:
 
 ### For Windows:
 #### Python:
@@ -66,8 +66,8 @@ Most of the action happens in the `/src/` directory. Here's a breakdown of the c
 - During installation, make sure to check the box that says "Add Python to PATH".
 - Verify installation by running in **Command Prompt**:
     ```bash
-    python --version
-    pip --version
+    python3 --version
+    pip3 --version
     ```
 
 #### git:
@@ -143,7 +143,7 @@ cd Static-Site-Generator
 
 ### 4. 🚀 Run
 
-To generate the static site and serve it locally:
+To generate the static site and serve it locally, run with:
 
 ```bash
 # Generate the site
