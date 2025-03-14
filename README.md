@@ -47,12 +47,13 @@ Most of the action happens in the `/src/` directory. Here's a breakdown of the c
 ```
 /project-root
   ├── content/              # Markdown files for content (e.g., blog posts, pages)
-  ├── static/               # Static assets (images, CSS, JavaScript, etc.)
-  ├── public/               # Output directory for the generated static site
+  ├── docs/                 # Output directory for the generated static site
   ├── src/                  # Python code for static site generation
-  ├── template.html         # HTML template for all pages
-  ├── architecture.png      # Architecture diagram or other relevant images
+  ├── static/               # Static assets (images, CSS, JavaScript, etc.)
+  ├── .gitignore            # Folders and file git should ignore
   ├── LICENSE               # License file for the project
+  ├── build.sh              # Python script to generate your static website for production
+  ├── template.html         # HTML template for all pages
   ├── main.sh               # Python script to generate the static site
   ├── test.sh               # Python script to run all tests in the src directory using unittest discover
   └── README.md             # Documentation for the project (e.g., usage, setup instructions)
