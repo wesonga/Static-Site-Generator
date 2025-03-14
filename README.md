@@ -18,7 +18,7 @@ Before diving into the code, here's a high-level overview of how this static sit
 
 ### System Diagram
 
-![Architecture Diagram](architecture.png) 
+![Architecture Diagram](static/images/architecture.png) 
 
 ---
 
